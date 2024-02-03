@@ -216,3 +216,5 @@ def remove_cart(request):
     'totalamount': amount + shipping_amount
       }
   return JsonResponse(data)
+
+# 03/02/2024
